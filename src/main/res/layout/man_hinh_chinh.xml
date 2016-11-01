@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anhnenchinh">
+
+    <Button
+        android:id="@+id/btnAlphabet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/button"
+        android:text="@string/alphabet"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnVocabulary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnAlphabet"
+        android:layout_below="@+id/btnAlphabet"
+        android:background="@drawable/button"
+        android:text="@string/vocabulary"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnVocabulary"
+        android:layout_below="@+id/btnVocabulary"
+        android:background="@drawable/button"
+        android:text="@string/titleVideo"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSongs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnVideo"
+        android:layout_below="@+id/btnVideo"
+        android:background="@drawable/button"
+        android:text="@string/titleSong"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnSongs"
+        android:layout_below="@+id/btnSongs"
+        android:background="@drawable/button"
+        android:text="@string/titleGame"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnGame"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/button"
+        android:text="@string/exit"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
