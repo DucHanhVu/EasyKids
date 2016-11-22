@@ -2,7 +2,7 @@
 EasyKids Source App
 
 ### Usage
-Add the dependency in your ** build.gradle.**
+Add the dependency in your **build.gradle.**
 
 ``` 
 dependencies {
