@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_control"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anhnenchinh"
+    tools:context="com.example.quynhon.easykids.MainControl">
+
+    <Button
+        android:id="@+id/btnAlphabet"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnVocabulary"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button"
+        android:text="@string/alphabet"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnVocabulary"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnVideo"
+        android:layout_alignStart="@+id/btnAlphabet"
+        android:background="@drawable/button"
+        android:text="@string/vocabulary"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnSongs"
+        android:layout_alignStart="@+id/btnVocabulary"
+        android:background="@drawable/button"
+        android:text="@string/titleVideo"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSongs"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnGame"
+        android:layout_alignStart="@+id/btnVideo"
+        android:background="@drawable/button"
+        android:text="@string/titleSong"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnGame"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnExit"
+        android:layout_alignStart="@+id/btnSongs"
+        android:background="@drawable/button"
+        android:text="@string/titleGame"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnGame"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button"
+        android:text="@string/exit"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btn_language"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/round_btn"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flag_vn" />
+
+</RelativeLayout>

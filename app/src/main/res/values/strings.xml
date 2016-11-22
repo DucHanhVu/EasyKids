@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EasyKids</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="vocabulary">Vocabulary</string>
+    <string name="titleVideo">Video</string>
+    <string name="titleSong">Songs</string>
+    <string name="titleGame">Game</string>
+    <string name="exit">Exit</string>
+    <string name="player_error">Error initializing Youtube player</string>
+    <string name="network_fail">Network Connect Failed !!!</string>
+    <string name="message_network_fail">Please check connect network...</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="question_alpha">Đây là chữ cái nào?</string>
+    <string name="question_number">Đây là số mấy?</string>
+    <string name="question_word">Đây là từ gì?</string>
+    <string name="category">Category</string>
+</resources>
