@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background_anphabet"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/apb_img_chucai"
+        android:layout_width="120dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        />
+    <TextView
+        android:id="@+id/apb_tvexample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apb_img_chucai"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="370dp"
+        android:textSize="40dp"
+        />
+    <ImageView
+        android:id="@+id/apb_img_vd"
+        android:layout_width="120dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="100dp"
+        android:layout_alignTop="@+id/apb_img_chucai"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="130dp" />
+    <Button
+        android:id="@+id/btn_back_alphabet"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/back"
+        />
+    <Button
+        android:id="@+id/btn_next_alphabet"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="520dp"
+        android:background="@drawable/next"
+        />
+
+</RelativeLayout>
